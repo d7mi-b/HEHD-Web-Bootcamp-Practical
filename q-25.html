@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>W3-D6/Q18</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+        }
+
+        .container div {
+            display: inline-block;
+            height: 300px;
+            margin: 10px;
+        }
+
+        .container div:first-child {
+            width: calc(20% - 30px);
+            background-color: orange;
+        }
+
+        .container div:nth-child(2) {
+            width: calc(50% - 20px);
+            background-color: thistle;
+        }
+
+        .container div:last-child {
+            width: calc(30% - 20px);
+            background-color: gold;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+</body>
+
+</html>
