@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>W3-D6/Q5</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+        }
+
+        .container div {
+            background-color: #eee;
+            border: 1px solid gold;
+            height: 200px;
+            display: inline-block;
+            margin: 10px;
+        }
+
+        .container div:first-of-type {
+            width: 300px;
+        }
+
+        .container div:last-of-type {
+            width: calc(100% - 300px - 40px - 4px)
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="column"></div>
+        <div class="column"></div>
+    </div>
+</body>
+</html>
