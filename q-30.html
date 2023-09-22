@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>W3-D6/Q12</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+        }
+
+        .card {
+            display: inline-block;
+            box-sizing: border-box;
+            width: 48%;
+            padding: 10px 20px;
+        }
+
+        .card .info img {
+            border-radius: 50%;
+        }
+
+        .card .info div {
+            display: inline-block;
+            position: relative;
+            top: -30px;
+            margin: 0 15px;
+        }
+
+        .card .info p:not(.name) {
+            font-size: 12px;
+            color: #111e53;
+        }
+
+        .card .info .name {
+            font-size: 18px;
+            font-weight: 600;
+        }
+
+        .card .lorem {
+            background-color: #111e53;
+            color: whitesmoke;
+            padding: 20px;
+            margin: 10px auto;
+            line-height: 1.5;
+        }
+
+        .arrows {
+            text-align: center;
+            font-size: 18px;
+            color: #111e53;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <main class="container">
+        <section class="card">
+            <div class="info">
+                <img src="./img/avatar.jpeg" alt="avtar">
+                <div>
+                    <p class="name">Steve Thomas</p>
+                    <p>Web Developer</p>
+                </div>
+            </div>
+            <div class="lorem">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores voluptas totam laboriosam nam veniam?
+                    Doloribus, porro iste. Tempora repellendus necessitatibus est alias rerum, perspiciatis voluptate totam earum
+                    asperiores accusantium sapiente.
+                </p>
+            </div>
+        </section>
+
+        <section class="card">
+            <div class="info">
+                <img src="./img/avatar.jpeg" alt="avtar">
+                <div>
+                    <p class="name">Steve Thomas</p>
+                    <p>Web Developer</p>
+                </div>
+            </div>
+            <div class="lorem">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores voluptas totam laboriosam nam veniam?
+                    Doloribus, porro iste. Tempora repellendus necessitatibus est alias rerum, perspiciatis voluptate totam earum
+                    asperiores accusantium sapiente.
+                </p>
+            </div>
+        </section>
+        <p class="arrows">&lt; &gt;</p>
+    </main>
+</body>
+
+</html>
